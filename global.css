@@ -21,9 +21,40 @@ header, .jumbotron, main, footer {
 /* HEADER */
 header {
   position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
 }
 
 .menu {
   float: left;
   width: 50%;
+}
+
+/* JUMBOTRON */
+.jumbtron {
+  margin-top: 60px;
+}
+
+.xl-box {
+  width: 80%;
+  margin: auto;
+  padding: 100px 0;
+  text-align: left;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.f1 {
+  float: left;
+}
+
+.f1.left {
+  width: calc(40%);
+}
+
+.f1.right {
+  width: calc(60%);
 }

@@ -1,3 +1,4 @@
+/* HEADER */
 header {
   background-color: bisque;
 }
@@ -6,4 +7,22 @@ header {
   background-color: blue;
   height: 60px;
   border: 1px solid white;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+  background-color: rgb(44, 42, 165);
+  
+  border-bottom: 1px solid black;
+  margin-top: 60px;
+}
+
+.xl-box {
+  width: 80%;
+  background-color: aquamarine;
+}
+
+.f1 {
+  height: 300px;
+  border: 1px solid black;
 }
