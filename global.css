@@ -57,6 +57,7 @@ h1, h2 {
 
 .f1.right {
   width: calc(60%);
+  padding: 0 15px;
 }
 
 /* MAIN */
@@ -116,3 +117,18 @@ label {
   width: 100%;
 }
 
+/* SEC 3 */
+.f4 {
+  float: left;
+  width: calc(100%/3);
+  padding: 15px;
+}
+
+.int.img {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.int.text {
+  width: 100%;
+}
