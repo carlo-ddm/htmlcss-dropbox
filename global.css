@@ -132,3 +132,9 @@ label {
 .int.text {
   width: 100%;
 }
+
+/* SEC 4 */
+.xl-box.clearfix.full-width {
+  width: 100%;
+  padding: 20px 0;
+}
