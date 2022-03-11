@@ -12,17 +12,34 @@ header {
 /* JUMBOTRON */
 .jumbotron {
   background-color: rgb(44, 42, 165);
-  
   border-bottom: 1px solid black;
   margin-top: 60px;
 }
 
 .xl-box {
-  width: 80%;
   background-color: aquamarine;
 }
 
 .f1 {
   height: 300px;
   border: 1px solid black;
+}
+
+/* MAIN */
+.sm.box {
+  height: 800px;
+  background-color: aqua;
+  border: 1px solid black;
+}
+
+.f2 {
+  border: 1px solid black;
+  background-color: brown;
+  height: 499px;
+}
+
+.col {
+  border: 1px solid black;
+  height: 450px;
+  background-color: rgb(238, 147, 11);
 }
