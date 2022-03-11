@@ -1,0 +1,9 @@
+header {
+  background-color: bisque;
+}
+
+.menu {
+  background-color: blue;
+  height: 60px;
+  border: 1px solid white;
+}

@@ -7,3 +7,23 @@
 body {
   font-family: arial;
 }
+
+.clearfix {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+header, .jumbotron, main, footer {
+  width: 100%;
+}
+
+/* HEADER */
+header {
+  position: fixed;
+}
+
+.menu {
+  float: left;
+  width: 50%;
+}
