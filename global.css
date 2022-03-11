@@ -71,6 +71,8 @@ section {
   padding: 20px 0;
 }
 
+/* SEC 1 */
+
 label {
   margin-right: 10px;
 }
@@ -85,7 +87,32 @@ label {
   padding: 15px;
 }
 
+/* COL è <dic> interno a f2 */
 .col {
+  width: 100%;
+}
+
+.buttom {
+  width: 60%;
+  margin: auto;
+  padding: 15px;
+}
+
+/* SEC 2 */
+.f3 {
+  float: left;
+  padding: 15px;
+}
+
+.f3.left {
+  width: 60%;
+}
+
+.f3.right {
+  width: 40%;
+}
+
+.int.f3 {
   width: 100%;
 }
 

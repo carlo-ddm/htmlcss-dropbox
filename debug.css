@@ -26,8 +26,13 @@ header {
 }
 
 /* MAIN */
+section {
+  border: 1px solid black;
+}
+
+/* SEC 1 */
 .sm.box {
-  height: 800px;
+  height: 599px;
   background-color: aqua;
   border: 1px solid black;
 }
@@ -40,6 +45,31 @@ header {
 
 .col {
   border: 1px solid black;
-  height: 450px;
+  height: 465px;
   background-color: rgb(238, 147, 11);
 }
+
+.buttom {
+  background-color: brown;
+  height: 160px;
+}
+
+.int.buttom {
+  width: 100%;
+  height: 130px;
+  background-color: rgb(238, 147, 11);
+
+}
+
+/* SEC 2 */
+.f3 {
+  border: 1px solid black;
+  height: 557px;
+  background-color: brown;
+}
+
+.int.f3 {
+  background-color: rgb(238, 147, 11);
+  height: 518px;
+}
+
