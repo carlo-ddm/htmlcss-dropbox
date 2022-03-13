@@ -1,12 +1,12 @@
 /* HEADER */
 header {
-  background-color: bisque;
+  background-color: blue;
 }
 
 .menu {
-  background-color: blue;
+  background-color: rgb(137, 137, 221);
   height: 60px;
-  border: 21px solid white;
+  border: 1px solid black;
 }
 
 /* JUMBOTRON */
@@ -48,6 +48,9 @@ section {
   border: 1px solid black;
   background-color: brown;
   height: 499px;
+}
+.f2.full {
+  height: 200px;
 }
 
 .col {
@@ -101,3 +104,9 @@ section {
 }
 
 /* SEC 4 */
+
+/* FOOTER */
+.xl-box.clearfix.full-width.feet {
+  height: 300px;
+  border: 0 1px solid white ;
+}
