@@ -18,6 +18,15 @@ header, .jumbotron, main, footer {
   width: 100%;
 }
 
+img {
+  display: inline-block;
+}
+
+.menu ul, .menu ul li {
+  display: inline-block;
+  list-style: none;
+}
+
 /* HEADER */
 header {
   position: fixed;
