@@ -18,15 +18,6 @@ header, .jumbotron, main, footer {
   width: 100%;
 }
 
-img {
-  display: inline-block;
-}
-
-.menu ul, .menu ul li {
-  display: inline-block;
-  list-style: none;
-}
-
 /* HEADER */
 header {
   position: fixed;
@@ -40,9 +31,32 @@ header {
   width: 50%;
 }
 
+#log {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.menu ul, .menu ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+.menu:nth-of-type(2) {
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+}
+
 /* JUMBOTRON */
-.jumbtron {
-  margin-top: 60px;
+.jumbotron {
+  margin-top: 77px;
 }
 
 .xl-box {
