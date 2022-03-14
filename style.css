@@ -28,9 +28,18 @@
 }
 
 /* BTN */
+.menu:nth-child(2) {
+  text-align: right;
+}
+
 .btn {
   background-color: blue;
   color: white;
   width: 10px;
   padding: 10px 40px;
+}
+
+/* JUMBOTRON */
+.jumbotron, .large.container, .float.jumbo.left, .float.jumbo.right, .float.jumbo.left .col, .float.jumbo.right .col {
+  background-color: #A6C5E1;
 }

@@ -15,12 +15,7 @@
 
 /* JUMBOTRON */
 .jumbotron {
-  background-color: rgb(44, 42, 165);
   border-bottom: 1px solid black;
-}
-
-.large.container {
-  background-color: aquamarine;
 }
 
 /* MAIN */
