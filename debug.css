@@ -32,8 +32,7 @@ section {
 }
 
 /* SEC 1 */
-.sm.box {
-  height: 250px;
+.small.container {
   background-color: aquamarine;
   border: 1px solid black;
 }

@@ -8,7 +8,7 @@ body {
   font-family: arial;
 }
 
-.clearfix {
+.clearfix::after {
   content: '';
   display: table;
   clear: both;
@@ -88,7 +88,7 @@ section {
   width: 100%;
 }
 
-.sm.box {
+.small.container {
   width: 60%;
   margin: auto;
   text-align: left;
@@ -194,4 +194,3 @@ footer {
   float: left;
   width: calc(100%/5);
 }
-
