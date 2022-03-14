@@ -48,6 +48,10 @@ h1 {
   font-size: 75px;
 }
 
+h2 {
+  font-size: 35px;
+}
+
 p {
   font-size: 18px;
   line-height: 25px;
@@ -77,6 +81,28 @@ p {
 h1, .jumbotron .large.container.clearfix .float.left .col, .jumbotron .large.container.clearfix .float.right .col {
   position: relative;
   bottom: -95px;
+}
+
+/* SECTION 1 */
+.small.container.clearfix:nth-of-type(1) .float.section-1 .col, .small.container.clearfix:nth-of-type(1) .float.section-1 {
+  background-color: white;
+  
+}
+
+.small.container.clearfix:nth-of-type(1) .float.section-1 .col {
+  border: 1px solid lightgray;
+}
+
+.small.container.clearfix:nth-of-type(1) .float.section-1 .col .target {
+  width: 100%;
+  padding: 0 15px;
+}
+
+.options {
+  text-align: center;
+  line-height: 40px;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 40px;
 }
 
 

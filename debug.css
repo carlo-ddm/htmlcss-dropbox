@@ -1,29 +1,16 @@
 /* GENERICHE */
 .float {
   height: 300px;
-  background-color: brown;
 }
 
 .col {
+  border: 1px solid black;
   height: 100%;
-  background-color: rgb(238, 147, 11);
 }
-
-/* HEADER */
-
-/* JUMBOTRON */
-
 
 /* MAIN */
-section {
-  border: 1px solid black;
-}
-
-.small.container.clearfix {
-  background-color: aquamarine;
-  border: 1px solid black;
-}
 /* SECTIONS */
+
 .float.text {
   height: 100px;
 }
