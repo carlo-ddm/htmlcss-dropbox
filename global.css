@@ -196,7 +196,7 @@ footer {
   width: 80%;
 }
 
-.large.container.clearfix.full-width.feet .f2 {
+.large.container.clearfix.full-width.feet .float.footer {
   float: left;
   width: calc(100%/5);
 }
