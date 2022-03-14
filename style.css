@@ -43,3 +43,13 @@
 .jumbotron, .large.container, .float.jumbo.left, .float.jumbo.right, .float.jumbo.left .col, .float.jumbo.right .col {
   background-color: #A6C5E1;
 }
+
+h1 {
+  font-size: 75px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 25px;
+}
+
