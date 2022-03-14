@@ -53,3 +53,22 @@ p {
   line-height: 25px;
 }
 
+.paragraph {
+  margin-bottom: 40px;
+}
+
+.float.jumbo.left .col .btn {
+  margin-bottom: 20px;
+}
+
+.float.jumbo.right .col img {
+  width: 100%;
+}
+
+.jumbotron .large.container.clearfix {
+  position: relative;
+  bottom: -98px;
+}
+
+
+
