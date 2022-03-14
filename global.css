@@ -59,7 +59,7 @@ a {
   margin-top: 77px;
 }
 
-.xl-box {
+.large.container {
   width: 80%;
   margin: auto;
   padding: 100px 0;
@@ -70,15 +70,17 @@ h1, h2 {
   margin-bottom: 20px;
 }
 
-.f1 {
+.float {
   float: left;
+  padding: 15px;
 }
 
-.f1.left {
+.float.jumbo.left {
   width: calc(40%);
+  padding: 0;
 }
 
-.f1.right {
+.float.jumbo.right {
   width: calc(60%);
   padding: 0 15px;
 }
@@ -88,7 +90,7 @@ section {
   width: 100%;
 }
 
-.small.container {
+.small.container.clearfix {
   width: 60%;
   margin: auto;
   text-align: left;
@@ -96,6 +98,19 @@ section {
 }
 
 /* SEC 1 */
+.float.text {
+  width: 100%;
+  padding: 0;
+}
+
+.float.section-1 {
+  width: calc(100%/3);
+}
+
+.float.section-1.large {
+  width: 100%;
+  padding: 15px;
+}
 
 label {
   margin-right: 10px;
@@ -118,12 +133,6 @@ label {
 /* COL è <dic> interno a f2 */
 .col {
   width: 100%;
-}
-
-.buttom {
-  width: 60%;
-  margin: auto;
-  padding: 15px;
 }
 
 /* SEC 2 */
@@ -161,7 +170,7 @@ label {
 }
 
 /* SEC 4 */
-.xl-box.clearfix.full-width {
+.large.container.clearfix.full-width {
   width: 100%;
   padding: 20px 0;
 }
@@ -186,11 +195,11 @@ footer {
   background-color: black;
 }
 
-.xl-box.clearfix.full-width.feet {
+.large.container.clearfix.full-width.feet {
   width: 80%;
 }
 
-.xl-box.clearfix.full-width.feet .f2 {
+.large.container.clearfix.full-width.feet .f2 {
   float: left;
   width: calc(100%/5);
 }

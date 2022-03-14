@@ -10,31 +10,40 @@
   border-bottom: 1px solid black;
 }
 
-.xl-box {
+.large.container {
   background-color: aquamarine;
 }
 
-.f1 {
+.float {
   height: 300px;
   border: 1px solid black;
   background-color: brown;
 }
 
-.int.f1.jumbo {
-  width: 100%;
+.col {
+  border: 1px solid black;
   height: 100%;
   background-color: rgb(238, 147, 11);
 }
+
 
 /* MAIN */
 section {
   border: 1px solid black;
 }
 
-/* SEC 1 */
-.small.container {
+.small.container.clearfix {
   background-color: aquamarine;
   border: 1px solid black;
+}
+
+/* SEC 1 */
+.float.text {
+  height: 100px;
+}
+
+.float.section-1.large {
+  height: 150px;
 }
 
 .f2 {
@@ -46,11 +55,7 @@ section {
   height: 200px;
 }
 
-.col {
-  border: 1px solid black;
-  height: 100%;
-  background-color: rgb(238, 147, 11);
-}
+
 
 .buttom {
   background-color: brown;
@@ -99,7 +104,7 @@ section {
 /* SEC 4 */
 
 /* FOOTER */
-.xl-box.clearfix.full-width.feet {
+.large.container.clearfix.full-width.feet {
   height: 300px;
   border: 0 1px solid white ;
 }
