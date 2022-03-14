@@ -96,7 +96,30 @@ h1, .jumbotron .large.container.clearfix .float.left .col, .jumbotron .large.con
 .small.container.clearfix:nth-of-type(1) .float.section-1 .col .target {
   width: 100%;
   padding: 0 15px;
+  margin-bottom: 20px;
 }
+
+span{
+  display: block;
+}
+
+.small.container.clearfix:nth-of-type(1) .float.section-1 .col .target span:nth-of-type(1) {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.small.container.clearfix:nth-of-type(1) .float.section-1 .col .target span:nth-of-type(2) {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.small.container.clearfix:nth-of-type(1) .float.section-1 .col .target span:nth-of-type(3) {
+  font-size: 15px;
+  color: gray;
+}
+
 
 .options {
   text-align: center;
