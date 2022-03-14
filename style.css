@@ -2,11 +2,12 @@
 
 /* MENU */
 #log {
-  margin-left: 20px;
+  display: inline-block;
 }
 
 .menu {
   font-size: 15px;
+  padding: 0 15px;
 }
 
 .menu ul li {
@@ -29,14 +30,7 @@
 /* BTN */
 .btn {
   background-color: blue;
+  color: white;
   width: 10px;
   padding: 10px 40px;
-}
-
-.btn a:only-child {
-  color: white;
-}
-
-.menu .btn {
-  margin-right: 20px;
 }

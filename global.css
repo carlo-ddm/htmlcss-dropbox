@@ -29,6 +29,7 @@ header {
 .menu {
   float: left;
   width: 50%;
+  background-color: white;
 }
 
 #log {
@@ -114,18 +115,6 @@ label {
 
 .radio-btn {
   display: inline-block;
-}
-
-/* Lascia ancora f2 per correzione successiva */
-
-.f2 {
-  float: left;
-  width: calc(100%/3);
-  padding: 15px;
-}
-
-.f2.full {
-  width: 100%;
 }
 
 /* SECTION 2 */
