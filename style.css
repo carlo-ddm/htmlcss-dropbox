@@ -80,7 +80,7 @@ p {
 
 h1, .jumbotron .large.container.clearfix .float.left .col, .jumbotron .large.container.clearfix .float.right .col {
   position: relative;
-  bottom: -95px;
+  bottom: -100px;
 }
 
 /* SECTION 1 */
@@ -155,8 +155,25 @@ span{
   width: 50px;
   height: 5px;
   margin-left: 5px;
+  margin-bottom: 20px;
   border-bottom: 1px solid lightgray;
 }
+
+.small.container.clearfix:nth-of-type(1) .float.section-1 .col .target span:nth-of-type(6) {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.small.container.clearfix:nth-of-type(1) .float.section-1 .col .target ul li {
+  list-style: none;
+  margin-bottom: 40px;
+}
+
+
+
+
 
 
 
