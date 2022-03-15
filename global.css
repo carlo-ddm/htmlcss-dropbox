@@ -101,7 +101,7 @@ h1, h2 {
 /* SEC 1 */
 .float.text {
   width: 100%;
-  padding: 0;
+  padding: 15px;
 }
 
 .float.section-1 {
