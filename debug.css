@@ -1,11 +1,10 @@
 /* GENERICHE */
 .float {
-  height: 300px;
+  
 }
 
 .col {
   border: 1px solid black;
-  height: 100%;
 }
 
 /* MAIN */
@@ -13,10 +12,6 @@
 
 .float.text {
   height: 100px;
-}
-
-.float.section-1.large {
-  height: 150px;
 }
 
 .float.footer {
