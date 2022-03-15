@@ -219,7 +219,18 @@ section:nth-of-type(3) .small.container.clearfix {
 .float.section-3 .col .text span.text {
   font-size: 16px;
   line-height: 25px;
+  margin-bottom: 100px;
 }
+
+.float.section-3.large h2 {
+  margin-bottom: 30px;
+}
+
+  .float.section-3.large a {
+    color: blue;
+    text-decoration: underline;
+  }
+
 
 
 
