@@ -52,8 +52,8 @@ h2 {
   font-size: 35px;
 }
 
-p {
-  font-size: 18px;
+p, li {
+  font-size: 16px;
   line-height: 25px;
 }
 
@@ -170,6 +170,37 @@ span{
   list-style: none;
   margin-bottom: 40px;
 }
+
+.float.left.section-2 .col img {
+  width: 100%;
+}
+
+.float.right.section-2 .col {
+  padding: 20px;
+}
+
+.float.right.section-2 .col span {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.float.right.section-2 .col .btn {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+
+/* SEC 3 */
+.float.section-3 .col .container.img {
+  width: 100%;
+}
+
+.float.section-3 .col .container.img img {
+  width: 100%;
+}
+
 
 
 
