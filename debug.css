@@ -1,27 +1,5 @@
-/* GENERICHE */
-.float {
-}
-
-.col {
-  
-}
-
-/* MAIN */
-/* SECTIONS */
-
-.float.text {
-  height: 100px;
-}
-
 .float.footer {
   border: 1px solid black;
   background-color: brown;
   height: 499px;
-}
-
-
-
-/* FOOTER */
-.large.container.clearfix.full-width.feet {
-  border: 0 1px solid white ;
 }

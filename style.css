@@ -204,6 +204,7 @@ section:nth-of-type(1) .small.container.clearfix {
 
 section:nth-of-type(3) .small.container.clearfix {
   padding-top: 70px;
+  padding-bottom: 20px;
 }
 
 .float.section-3 .col .container.img {
@@ -234,6 +235,7 @@ section:nth-of-type(3) .small.container.clearfix {
 .float.section-3.large a {
     color: blue;
     text-decoration: underline;
+    margin-bottom: 50px;
 }
 
 .float.sponsor .col img {
@@ -282,6 +284,30 @@ section:nth-of-type(3) .small.container.clearfix {
     color: black;
   }
 
+  /* FAQ */
+  .col.call {
+    margin-bottom: 30px;
+  }
+
+  .faq {
+    position: relative;
+    font-weight: bold;
+    line-height: 80px;
+    border-top: 1px solid lightgrey;
+  }
+
+  .faq:first-child {
+    font-weight: bold;
+    font-size: 45px;
+    border-top: none;
+    border-bottom: none;
+  }
+
+  i {
+    position: absolute;
+    top: 32px;
+    right: 0;
+  }
 
 
 
