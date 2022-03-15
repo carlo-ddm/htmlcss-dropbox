@@ -40,7 +40,8 @@
 }
 
 /* JUMBOTRON */
-.jumbotron, .large.container, .float.jumbo.left, .float.jumbo.right, .float.jumbo.left .col, .float.jumbo.right .col {
+.jumbotron, .float.jumbo.left, .float.jumbo.right, .float.jumbo.left, .float.jumbo.right, 
+.float.sponsor.clearfix:nth-child(4) {
   background-color: #A6C5E1;
 }
 
@@ -171,6 +172,10 @@ span{
   margin-bottom: 40px;
 }
 
+.small.container.clearfix:nth-of-type(1) .float.section-1 .col .target ul li:last-child {
+  margin-bottom: 150px;
+}
+
 .float.left.section-2 .col img {
   width: 100%;
 }
@@ -226,9 +231,55 @@ section:nth-of-type(3) .small.container.clearfix {
   margin-bottom: 30px;
 }
 
-  .float.section-3.large a {
+.float.section-3.large a {
     color: blue;
     text-decoration: underline;
+}
+
+.float.sponsor .col img {
+    width: 100%;
+}
+
+  /* SPONSOR COLOR */
+
+  .float.sponsor.clearfix .col img {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .float.sponsor.clearfix .col.designit {
+    background-color: #92CC89;
+  }
+  .float.sponsor.clearfix .col.asu {
+    background-color: #4D0020;
+  }
+  .float.sponsor.clearfix .col.uf {
+    background-color: #107FC3;
+  }
+  .float.sponsor.clearfix .col.topps {
+    background-color: #FB0017;
+  }
+  .float.sponsor.clearfix .col.center {
+    background-color: #F2F2F2;
+  }
+  .float.sponsor.clearfix .col.world {
+    background-color: #C90018;
+  }
+  .float.sponsor.clearfix .col.hearts {
+    background-color: #A6C5E1;
+  }
+  .float.sponsor.clearfix .col.lonely {
+    background-color: #0B146E;
+  }
+  .float.sponsor.clearfix .col.clear {
+    background-color: #FED225;
+  }
+
+  /* BTN CALL TO */
+
+  .col.call .btn {
+    background-color: #FFFFFF;
+    color: black;
   }
 
 

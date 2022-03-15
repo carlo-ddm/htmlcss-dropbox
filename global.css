@@ -60,14 +60,13 @@ a {
 }
 
 .jumbotron .col {
-  border: 1px solid black;
   height: 400px;
 }
 
 .large.container {
   width: 80%;
   margin: auto;
-  padding: 100px 0;
+  padding: 40px 0;
   text-align: left;
 }
 
@@ -149,7 +148,7 @@ label {
 }
 
 .float.sponsor.clearfix {
-  width: calc(100%/3);
+  width: calc(100vw/3);
   padding: 0;
 }
 
@@ -164,10 +163,11 @@ label {
   height: 100%;
 }
   /* CALL TO ACTION */
-  .float.sponsor.clearfix:nth-child(4) {
-    width: 100%;
-    padding: 5% 20%;
-  }
+
+.float.sponsor.clearfix:nth-child(4) {
+  width: 100%;
+  padding: 5% 20%;
+}
 
 .float.sponsor.clearfix .col.call {
   width: 100%;
@@ -192,4 +192,30 @@ footer {
 .large.container.clearfix.full-width.feet .float.footer {
   float: left;
   width: calc(100%/5);
+}
+
+
+/* container sponsor */
+
+.float.sponsor.clearfix .col {
+  height: 200px;
+}
+
+/* call to action */
+col.call.clearfix {
+  line-height: 40px;
+}
+
+.col.call.clearfix .left {
+  float: left;
+  width: 70%;
+  color: #4D0020;
+  font-size: 30px;
+  margin: 50px 0;
+}
+
+.col.call.clearfix .right {
+  float: left;
+  width: 30%;
+  margin: 50px 0;
 }
