@@ -99,6 +99,13 @@ h1, .jumbotron .large.container.clearfix .float.left .col, .jumbotron .large.con
   margin-bottom: 20px;
 }
 
+.options {
+  text-align: center;
+  line-height: 40px;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 40px;
+}
+
 span{
   display: block;
 }
@@ -116,17 +123,12 @@ span{
 }
 
 .small.container.clearfix:nth-of-type(1) .float.section-1 .col .target span:nth-of-type(3) {
-  font-size: 15px;
   color: gray;
+  font-size: 15px;
+  margin-bottom: 15px;
 }
 
-
-.options {
-  text-align: center;
-  line-height: 40px;
-  border-bottom: 1px solid lightgray;
-  margin-bottom: 40px;
-}
+.small.container.clearfix:nth-of-type(1) .float.section-1 .col .target span:nth-of-type(4)
 
 
 
