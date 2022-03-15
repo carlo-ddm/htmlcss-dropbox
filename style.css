@@ -139,10 +139,23 @@ span{
   margin-bottom: 20px;
 }
 
+.small.container.clearfix:nth-of-type(1) .float.section-1 .col .target span:nth-of-type(5) {
+  margin-bottom: 20px;
+}
+
+
 .small.container.clearfix:nth-of-type(1) .float.section-1 .col .target span:nth-of-type(5) a {
   text-decoration: underline;
   color: blue;
-  margin-bottom: 20px;
+}
+
+.row {
+  display: inline-block;
+  color: lightgray;
+  width: 50px;
+  height: 5px;
+  margin-left: 5px;
+  border-bottom: 1px solid lightgray;
 }
 
 
