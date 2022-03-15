@@ -280,6 +280,8 @@ section:nth-of-type(3) .small.container.clearfix {
   /* BTN CALL TO */
 
   .col.call .btn {
+    position: relative;
+    top: 15px;
     background-color: #FFFFFF;
     color: black;
   }
@@ -307,6 +309,26 @@ section:nth-of-type(3) .small.container.clearfix {
     position: absolute;
     top: 32px;
     right: 0;
+  }
+
+  /* FOOTER */
+
+  .float.footer .col h3 {
+    margin-bottom: 60px;
+  }
+
+  .float.footer h3, .float.footer ul li {
+    color: white;
+    margin-bottom: 10px;
+    list-style: none;
+  }
+
+  .float.footer:first-child ul li:last-child {
+    margin-bottom: 80px;
+  }
+
+  hr {
+    width: 100px;
   }
 
 
