@@ -1,10 +1,10 @@
 /* GENERICHE */
 .float {
-  
 }
 
 .col {
   border: 1px solid black;
+  
 }
 
 /* MAIN */
@@ -32,4 +32,8 @@
 /* FOOTER */
 .large.container.clearfix.full-width.feet {
   border: 0 1px solid white ;
+}
+
+.float.section-3 .col .container.img {
+  border-bottom: 1px solid black;
 }
